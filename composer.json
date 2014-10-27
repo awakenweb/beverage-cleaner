@@ -1,0 +1,20 @@
+{
+    "name": "awakenweb/beverage-cleaner",
+    "description": "Temporary files and directories cleaner module for Beverage task runner",
+    "keywords": ["task", "runner", "clean", "temporary"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4",
+        "awakenweb/beverage": "*",
+        "Symfony/Filesystem": "~2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Awakenweb\\BeverageCleaner\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "dev"
+}
